@@ -55,9 +55,9 @@ Codex, Cursor, Factory Droid, and other `.agents/skills` agents:
 
 ```bash
 mkdir -p .agents/skills/convex-hackathon-skill/references
-curl -fsSL https://raw.githubusercontent.com/get-convex/convex-hackathon-skill/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/convex/convex-hackathon-skill/main/SKILL.md \
   -o .agents/skills/convex-hackathon-skill/SKILL.md
-curl -fsSL https://raw.githubusercontent.com/get-convex/convex-hackathon-skill/main/references/log-format.md \
+curl -fsSL https://raw.githubusercontent.com/convex/convex-hackathon-skill/main/references/log-format.md \
   -o .agents/skills/convex-hackathon-skill/references/log-format.md
 ```
 
@@ -65,9 +65,9 @@ Claude Code:
 
 ```bash
 mkdir -p .claude/skills/convex-hackathon-skill/references
-curl -fsSL https://raw.githubusercontent.com/get-convex/convex-hackathon-skill/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/convex/convex-hackathon-skill/main/SKILL.md \
   -o .claude/skills/convex-hackathon-skill/SKILL.md
-curl -fsSL https://raw.githubusercontent.com/get-convex/convex-hackathon-skill/main/references/log-format.md \
+curl -fsSL https://raw.githubusercontent.com/convex/convex-hackathon-skill/main/references/log-format.md \
   -o .claude/skills/convex-hackathon-skill/references/log-format.md
 ```
 
@@ -83,7 +83,7 @@ macOS or Linux:
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/get-convex/convex-hackathon-skill.git \
+git clone https://github.com/convex/convex-hackathon-skill.git \
   "$HOME/.agents/skills/convex-hackathon-skill"
 ```
 
@@ -91,7 +91,7 @@ Windows PowerShell:
 
 ```powershell
 New-Item -ItemType Directory -Force "$HOME\.agents\skills"
-git clone https://github.com/get-convex/convex-hackathon-skill.git `
+git clone https://github.com/convex/convex-hackathon-skill.git `
   "$HOME\.agents\skills\convex-hackathon-skill"
 ```
 
